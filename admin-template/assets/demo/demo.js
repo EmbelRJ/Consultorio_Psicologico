@@ -360,7 +360,7 @@ demo = {
     var data = {
       labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
       datasets: [{
-        label: "Valor:",
+        label: "Data",
         fill: true,
         backgroundColor: gradientStroke,
         borderColor: '#d048b6',
@@ -396,7 +396,7 @@ demo = {
     var data = {
       labels: ['JUL', 'AUG', 'SEP', 'OCT', 'NOV'],
       datasets: [{
-        label: "Valor:",
+        label: "My First dataset",
         fill: true,
         backgroundColor: gradientStroke,
         borderColor: '#00d6b4',
@@ -423,7 +423,7 @@ demo = {
 
 
 
-    var chart_labels = ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SEP', 'OUT', 'NOV', 'DES'];
+    var chart_labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
     var chart_data = [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100];
 
 
@@ -439,7 +439,7 @@ demo = {
       data: {
         labels: chart_labels,
         datasets: [{
-          label: "Total:",
+          label: "My First dataset",
           fill: true,
           backgroundColor: gradientStroke,
           borderColor: '#d346b1',
@@ -498,9 +498,9 @@ demo = {
         display: false
       },
       data: {
-        labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN'],
+        labels: ['USA', 'GER', 'AUS', 'UK', 'RO', 'BR'],
         datasets: [{
-          label: "Valor",
+          label: "Countries",
           fill: true,
           backgroundColor: gradientStroke,
           hoverBackgroundColor: gradientStroke,
